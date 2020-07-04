@@ -1,0 +1,10 @@
+.Movies { 
+	width: 32%;
+	float: left;
+}
+p {
+	font-family: 'Droid sans', sans-serif;
+	text-align: justify; 
+	text-transform: none;
+	font-size: 90%;
+}

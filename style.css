@@ -1,0 +1,125 @@
+
+body {
+	background-color: #F0F0F0;
+	color: #555;
+	font-family: 'Ubuntu Condensed', sans-serif;
+	line-height: 190%;
+	text-align: center;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 190%;
+	padding: 5% 0; /* ça nous permet d'espacer le titre en h3 du cardre dans lequel il se trouve */
+}
+h4 {
+    font-size: 170%;
+    padding: 5% 0;
+}
+h5 {
+	font-size: 120%;
+	color: #959595;
+}
+img {
+	max-width: 100%; /* ça nous permet d'avoir des images sensibles, donc meme si on reduit la taille de la page, la taille de l'image réduit simultanément */
+}
+header {
+     background: #0d968b;
+	 height: 155px;
+	 position: fixed;
+	 z-index: 1000; /* pour l'afficher au dessus de tous les autres elements de la page */
+	 width: 100%; /* pour l'afficher en pleine page en haut */
+	 opacity: .8; /* effet transparent */ 
+     top: 0;   	 
+}
+#header-inner { /*pour rendre la partie en haut (contenant le logo et les elements) plus flexible par rapport au taille de la page */
+	max-width: 1200px;
+	margin:0 auto;
+}
+#logo { /* on va modifier le positionnement du logo du site */
+	position: relative;
+	top: 0px;
+    float: left;
+	width: 200px;
+	height: 60px;
+}
+nav {
+	float: right;
+	padding: 35px 20px 0 0; /* modifier l'enmplacement des differentes pages */
+}
+ul {
+	list-style: none; /* ceci va supprimer les pointillée qu'on observe à gauche des titres du menu */
+}
+nav ul li {
+	font-family: sans-serif;
+	display: inline-block; /*ceci va aligner les titres du menu */
+	padding: 10px; /* ceci nous permet d'espacer les titres */
+	font-size: 110%;
+}
+nav ul li a { /* ceci reference les liens */
+    color: #ff0000;
+	text-decoration: none; /* pour supprimer les soulignes */
+	font-weight: 700; /* meme effet que strong (gas) */	
+}
+a:hover {
+	text-decoration: underline; /* maintenant lorsqu'on passe le curseur sur le titre il va se souligner automatiquement (effet decoratif) */
+}
+/* Maintenant on va modifier le corps de la page */
+#inner-wrapper {
+	max-width: 1200px;
+	margin: 0 auto; /* ceci va reduire la taille du contenu du corps de la page */
+}
+.one-third { /* ceci va aligner et decomposer les parties avertissement, à propos et reglements en trois parties et les aligner */
+	width: 32%;
+	float: left;
+}
+p {
+	font-family: 'Droid sans', sans-serif;
+	text-align: justify; /* pour l'alignement des paragraphes */
+	text-transform: none;
+	font-size: 125%;
+	padding: 3%; /* pour espacer les paragraphes */
+}
+/* commencer le pied de la page */
+#footer-inner: {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.un-demi-pied {
+	width: 50%;
+	float: left;
+}
+footer {
+	background: #333;
+	overflow: hidden; /* ça contrôle ce qui arrive au contenu qui est trop grand pour tenir dans une zone */ 
+	opacity: .9; /*effet transparent*/
+}
+footer h3 {
+    color: #959595;
+}
+footer a { /* ceci va modifier la couleur des "pages" au pied de la page et supprimer les soulignes */
+	color: #959595;
+	text-decoration: none;
+}
+.footer-Social li {
+	display: inline; /* ceci va aligner les icones des médias sociaux */
+}
+h5 a:hover { /* ceci va permet le changement du couleur des noms des pages au pied du site */
+	color: #f5f5f5;
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

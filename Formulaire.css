@@ -1,0 +1,10 @@
+body legend {
+	text-align: center;
+}
+.partie {
+	width: 50%;
+	float: left;
+} 
+body fieldset {
+	background-color: #1be8be;
+}
